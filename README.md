@@ -37,14 +37,15 @@ semantic segmentation based on deeplab v3 using facade dataset
     print('成功！')
 
 标准数据集结果如下：
-    -facade(数据集名称)
-    	- ImageSets
-    		- Segmentation
-    			- train.txt
-    			- test.txt
-    			- val.txt
-    	- JPEGImages(原始图片)
-    	- SegmentationClass(分割后图片)
+
+        -facade(数据集名称)
+        	- ImageSets
+        		- Segmentation
+        			- train.txt
+        			- test.txt
+        			- val.txt
+        	- JPEGImages(原始图片)
+        	- SegmentationClass(分割后图片)
  
 # 使用自己的数据集训练deeplab v3模型
 - mypath.py 中加入自己数据集的路径
